@@ -1,9 +1,9 @@
-User             →  POST /init → Generates + sends commitment → Platform
-                 ←  POST /verify ← Verifies Lender + Platform commitments
+User             →  POST /init → Generates + sends commitment → Platform </br>
+                 ←  POST /verify ← Verifies Lender + Platform commitments</br>
 
-Lender           →  POST /init → Generates + sends commitment → Platform
-                 ←  POST /verify ← Verifies User + Platform commitments
+Lender           →  POST /init → Generates + sends commitment → Platform</br>
+                 ←  POST /verify ← Verifies User + Platform commitments</br>
 
-Platform         ↔  Receives + Stores all commitments
-                 ↔  Verifies all ZKPs
-                 →  Aggregates final wallet public key
+Platform         ↔  Receives + Stores all commitments</br>
+                 ↔  Verifies all ZKPs</br>
+                 →  Aggregates final wallet public key</br>
