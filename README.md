@@ -68,3 +68,12 @@ multi-party-dkg-system/
 │   ├── API.md                # API specifications
 │   └── CRYPTO.md             # Cryptographic protocols
 └── docker-compose.yml        # Container orchestration
+
+
+```
+<img src="docs/shards generation.png" />
+<img src="docs/commitment generation and zpk generation.png" />
+<img src="docs/commitments verify.png" />
+<img src="docs/public key generation and btc address deriivation.png" />
+
+
